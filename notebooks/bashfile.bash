@@ -3,6 +3,9 @@ cd /home/jovyan/work
 export GIT_COMMITTER_NAME=anonymous
 export GIT_COMMITTER_EMAIL=anon@localhost
 
+mkdir /tmp/exchange
+chmod ugo+rw /tmp/exchange
+
 pip install nbgrader
 jupyter nbextension install --sys-prefix --py nbgrader --overwrite
 jupyter nbextension enable --sys-prefix --py nbgrader
