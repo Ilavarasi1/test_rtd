@@ -1,14 +1,15 @@
+mkdir /tmp/
+cd /tmp 
+mkdir exchange
+chmod ugo+rw /tmp/exchange
+cd ..
+cd ..
+
 cd /home/jovyan/work
 
 export GIT_COMMITTER_NAME=anonymous
 export GIT_COMMITTER_EMAIL=anon@localhost
 
-mkdir /tmp/
-cd mkdir 
-mkdir exchange
-chmod ugo+rw /tmp/exchange
-cd ..
-cd ..
 
 pip install nbgrader
 jupyter nbextension install --sys-prefix --py nbgrader --overwrite
