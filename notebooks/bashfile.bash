@@ -14,7 +14,7 @@ git clone  https://github.com/Ilavarasi1/test_rtd_whatever.git
 
 cp /home/jovyan/work/test_rtd_whatever/nbgrader_config.py /home/jovyan
 
-
+pip install nose
 pip install nbgrader
 jupyter nbextension install --sys-prefix --py nbgrader --overwrite
 jupyter nbextension enable --sys-prefix --py nbgrader
